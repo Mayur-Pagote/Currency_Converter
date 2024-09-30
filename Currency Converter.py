@@ -2,7 +2,7 @@ import easygui  # Import EasyGUI for creating graphical user interfaces
 import requests  # Import requests to make HTTP requests
 
 # Set your API key for the exchange rate service
-api_key = 'b2e9dd9a31cddf3ecafe303b'
+api_key = 'Enter your api_key'
 
 # Prompt the user to enter currency details using a multi-entry dialog
 details = easygui.multenterbox("Enter currency details:", "Exchange Rates Calculator", 
